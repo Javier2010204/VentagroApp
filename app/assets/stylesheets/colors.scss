@@ -1,6 +1,8 @@
 $colors:(
     black: #000,
-    white: #fff
+    white: #fff,
+    light-green: #97BF04,
+    green: #5A7302
 );
 
 @each $color-name, $color in $colors{

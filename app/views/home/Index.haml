@@ -1,22 +1,21 @@
-.row.center-xs.middle-xs.full-height
-    .box
-        .col-xs-12
-            %h1 Ventagro
-            .top-space
+.image-container
+    =image_tag("portadaventagro.jpeg")
+.row.center-xs.middle-xs.full-height.relative
+    .col-xs-12
+        .box
+            = image_tag("logoventagro.png")
+            .top-space.logo-font.font-medium
                 %p Nuestro proposito es desarrollar alimentos para animales y obtener el rendimiento mas alto en cada especie segun su linea genetica.
                 %p Guardando los requerimientos nutricionales establecidos como norma internacional
 
-.row.center-xs
-    .box
-        .col-xs-12.col-sm-3
+.row.center-xs.light-green.logo-font
+    .col-xs-12.col-sm-3
+        .box
             %h2 Productos
-.row.center-xs
-    .box
-        .col-xs-12
-            %h3 Nucleos
-.row.center-xs
-    .box
-        .col-xs-12
+.row.center-xs.green.white-text.logo-font
+    .col-xs-12
+        .box.big-padding
+            %h2.white-text.font-subtitle Nucleos
             %table{style:"width:100%"}
                 %tr
                     %th Pollo Engorde
@@ -53,3 +52,14 @@
                     %td
                     %td Cerdo Crecimiento
                     %td Ganado lechero Alta Produccion
+.row.center-xs.logo-font
+    .col-xs-12
+        .box
+            %h1 Servicios
+            .row.logo-font
+                .col-xs-12.col-sm-5
+                    .box
+                        %p Construccion de maquinaria para hacer concentrado
+                .col-xs-12.col-sm-6
+                    .box
+                        %p Planta de maquilacion de concentrado

@@ -11,10 +11,60 @@ html, body{
 }
 
 table, th, td {
-  border: 1px solid black;
+  border: 1px solid white;
   border-collapse: collapse;
 }
 
 th, td {
   padding: 15px;
 }
+
+.relative{
+    position: relative;
+}
+
+.logo-font{
+    font-family: 'Capriola', sans-serif;
+}
+
+.font-big{
+    font-size: 4em;
+}
+
+.font-subtitle{
+    font-size: 2em;
+}
+
+.font-medium{
+    font-size: 1.2em;
+}
+
+.image-container{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position:absolute;
+    img{
+      background-color: rgb(100,100,100);
+      background-blend-mode: soft-light;
+      //cubrir toda la pantalla
+      filter: opacity(0.5);
+      min-width: 100%;
+      min-height: 100%;
+
+      //el navegador no altere la escala
+      width: 100%;
+      height: auto;
+
+      //Centrarlo
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%,-50%);
+    }
+  }
+
+  .big-padding{
+      padding: 15px 10px;
+  }
